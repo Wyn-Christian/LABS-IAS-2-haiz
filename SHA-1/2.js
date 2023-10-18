@@ -29,11 +29,6 @@ let main = async () => {
 
   while (1) {
     input = await rl.question(chalk.bold.grey("\nInput Text to HASH: "));
-    if (input == "exit") {
-      console.clear();
-      console.log(chalk.yellow.bold("\nThank you!"));
-      process.exit(0);
-    }
     SHA1_HASH(input);
   }
   process.exit();

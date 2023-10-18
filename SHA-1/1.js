@@ -16,13 +16,13 @@ console.log("Provider = Node.js crypto module");
 console.log("ToString = [object Hash]\n");
 
 const input1 = "";
-const output1 = SHA1(input1);
+SHA1(input1);
 
 const input2 = "abc";
-const output2 = SHA1(input2);
+SHA1(input2);
 
 const input3 = "abcdefghijklmnopqrstuvwxyz";
-const output3 = SHA1(input3);
+SHA1(input3);
 
 const rl = createInterface({ input, output });
 
